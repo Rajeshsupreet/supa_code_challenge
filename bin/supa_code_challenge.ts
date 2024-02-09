@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
-import * as cdk from 'aws-cdk-lib';
-import { SupaCodeChallengeStack } from '../lib/supa_code_challenge-stack';
+import * as cdk from '@aws-cdk/core';
+import { MyEcsStack } from '../lib/supa_code_challenge-stack';
 
 const app = new cdk.App();
-new SupaCodeChallengeStack(app, 'SupaCodeChallengeStack', {
+new MyEcsStack(app, 'SupaCodeChallengeStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
