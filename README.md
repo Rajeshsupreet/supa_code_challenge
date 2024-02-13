@@ -1,4 +1,4 @@
-# SUPA TECH Challenge
+# SUPA tech Challenge
 
 ## Application Architecture
 
@@ -65,7 +65,7 @@ To deploy the AWS CDK TypeScript project, use the following steps:
 To Access Technical Challenge URL depolyed in AWS Cloud:
 
 ```shell
-SupaCodeChallengeStack.LoadBalancerDNS = SupaCo-MyFar-EAPR9BpwKA0F-1054826663.us-east-1.elb.amazonaws.com
+http://supaco-myfar-eapr9bpwka0f-1054826663.us-east-1.elb.amazonaws.com/
 ```
 
 ## Cleanup
